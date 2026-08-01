@@ -7,7 +7,7 @@ int main(){
     cout<<"what would you like to order in tea?\n";
     getline(cin,usertea);
     //ask for quantity
-    cout<<"how many cups of"<<usertea<<"would you like to have?";
+    cout<<"how many cupss of"<<usertea<<"would you like to have?";
     cin>>teaquantity;
     cout<<teaquantity;
     cout<<usertea;
