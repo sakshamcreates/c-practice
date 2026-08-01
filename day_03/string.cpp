@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     string favouritetea ="lemon tea";
-    string description="\tknown\tas\"best\"tea";
-    cout<<favouritetea<<description<<endl;
+    string descriptionrelatedtotea="\tknown\tas\"best\"tea";
+    cout<<favouritetea<<descriptionrelatedtotea<<endl;
     return 0;
 }
