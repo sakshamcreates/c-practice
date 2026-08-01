@@ -6,6 +6,6 @@ int tealeaves =50;
 float watertemperture=85.5;
 double priceoftea='299.99';
 char teagrade='A';
-cout << watertemperture<<priceoftea<<teagrade <<endl;
+cout<<priceoftea<<teagrade <<endl;
 return 0;
 }
