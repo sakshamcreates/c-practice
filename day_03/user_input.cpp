@@ -12,5 +12,4 @@ int main(){
     cout<<teaquantity;
     cout<<usertea;
     return 0;
-
 }
