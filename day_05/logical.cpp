@@ -11,11 +11,11 @@ int main(){
     cin>>cups;
 
      if ( isstudent || cups>15){
-        cout<<"you are eligible for a discount" <<endl;
+        cout<<"you are eligible for a elite badge" <<endl;
     }
     else{
 
-        cout<<"you are not eligible for a discount" <<endl;
+        cout<<"you are not eligible for a badge1" <<endl;
     }
     return 0;
 }
