@@ -18,5 +18,5 @@ void makechai(){
 
 void servechai(string teatype = "masala tea"){
     int cups = 4;
-    cout<<"serving"<<teatype<<endl;
+    cout<<"serving"<<teatype
 }
