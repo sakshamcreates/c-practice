@@ -18,5 +18,8 @@ int main(){
     {
         cout<<"cup:"<<i+1<<"has"<<chaiorders[i]<<"ml \n" ;
     }
+    delete[] chaiorders;
     return 0;
+
+    
 }
