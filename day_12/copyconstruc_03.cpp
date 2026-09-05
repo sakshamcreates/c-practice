@@ -16,7 +16,7 @@ public:
         teaname = "name";
         servings = serve;
         ingredients =ingr;
-        cout << "constructor called" << endl;
+        cout << "parameter constructor called" << endl;
     }
 
     // Function to display tea details
@@ -35,8 +35,9 @@ int main() {
     // Creating an object of Chai
     Chai lemontea("lemontea",2,{"water","milk","tealeaves"});
     
-    // Calling the function
-   lemontea.displayChaidetails();
+   //copy the code
+   Chai copiedChai = lemontea;
+   copiedChai.displayChaidetails();
 
     return 0;
 }
