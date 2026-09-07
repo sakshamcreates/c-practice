@@ -34,7 +34,13 @@ public:
     cout <<"tea brewed"<<endl;
  }
  void serve()override{
-    cout<<"tea served"<<endl; 
+    cout<<"tea served"<<endl;  
  }
 
 };
+
+int main(){
+    GreenTea greentea;
+
+    greentea.makeTea();
+}
