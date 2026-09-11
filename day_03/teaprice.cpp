@@ -7,4 +7,4 @@ int main(){
     int totalpriceoftea=teaprice*teaquantity;
     cout<<totalpriceoftea<<endl;
     return 0;
-}
+};
